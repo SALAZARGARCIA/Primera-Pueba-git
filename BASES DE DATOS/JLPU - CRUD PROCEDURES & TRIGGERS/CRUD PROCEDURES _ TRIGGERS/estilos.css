@@ -1,0 +1,35 @@
+
+body{
+	/*COLOR DE FONDO*/
+	background-color: #4cabb5;
+	font-family: Tahoma;
+}
+
+#main-container{
+	width: 1000px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	width: 100%;
+}
+
+th, td {
+	padding: 20px;
+}
+
+thead{
+	background-color: #4c80b5;
+	border-bottom: solid 20px #5a65bc ;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #e3f0fd;
+}
+
+tr:hover{
+	background-color: #497ad4;
+	color: white;
+}
